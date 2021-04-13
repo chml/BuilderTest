@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BuilderTest_Example' do
+  pod 'BuilderTest', :path => '../'
+
+  target 'BuilderTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
