@@ -1,0 +1,6 @@
+framework module BuilderTest {
+  umbrella header "BuilderTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

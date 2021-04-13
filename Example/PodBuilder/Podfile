@@ -1,0 +1,18 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BuilderTest_Example' do
+  pod 'BuilderTest', :path => '../..'
+
+  target 'BuilderTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
+
+
+pre_install do |installer|
+  raise "\n🚨  Do not launch 'pod install' manually, use `pod_builder` instead!\n" if !File.exist?('pod_builder.lock')
+end

@@ -1,0 +1,61 @@
+{
+  "name": "AFNetworking",
+  "version": "4.0.1",
+  "summary": "A delightful networking framework for Apple platforms.",
+  "homepage": "https://github.com/AFNetworking/AFNetworking",
+  "authors": "PodBuilder",
+  "source": {
+    "git": "https://github.com/AFNetworking/AFNetworking.git"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "default_subspecs": [
+    "NSURLSession",
+    "Reachability",
+    "Security",
+    "Serialization",
+    "UIKit"
+  ],
+  "subspecs": [
+    {
+      "name": "NSURLSession",
+      "vendored_frameworks": "AFNetworking.framework",
+      "dependencies": {
+        "AFNetworking/Reachability": [
+
+        ],
+        "AFNetworking/Security": [
+
+        ],
+        "AFNetworking/Serialization": [
+
+        ]
+      }
+    },
+    {
+      "name": "Reachability",
+      "vendored_frameworks": "AFNetworking.framework"
+    },
+    {
+      "name": "Security",
+      "vendored_frameworks": "AFNetworking.framework"
+    },
+    {
+      "name": "Serialization",
+      "vendored_frameworks": "AFNetworking.framework"
+    },
+    {
+      "name": "UIKit",
+      "vendored_frameworks": "AFNetworking.framework",
+      "dependencies": {
+        "AFNetworking/NSURLSession": [
+
+        ]
+      }
+    }
+  ]
+}

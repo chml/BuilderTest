@@ -1,0 +1,15 @@
+{
+  "entry": "pod 'AFNetworking', '=4.0.1'",
+  "is_prebuilt": false,
+  "specs": [
+    "AFNetworking",
+    "AFNetworking/NSURLSession",
+    "AFNetworking/Reachability",
+    "AFNetworking/Security",
+    "AFNetworking/Serialization",
+    "AFNetworking/UIKit"
+  ],
+  "is_static": false,
+  "original_compile_path": "/private/tmp/pod_builder",
+  "build_folder_hash": "1467daac41945bf62066c04496d308ad6b7610d5"
+}

@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - BuilderTest (0.1.0):
+    - AFNetworking
+
+DEPENDENCIES:
+  - AFNetworking (from `PodBuilder/Prebuilt/AFNetworking`)
+  - BuilderTest (from `..`)
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :path: PodBuilder/Prebuilt/AFNetworking
+  BuilderTest:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  AFNetworking: 0899dcd9578438a32ee0e9f5131ee4c7b5bdd936
+  BuilderTest: bcdbda28943e71fc7739bdade5ea48f988539f91
+
+PODFILE CHECKSUM: ef21c75f1e377ae641e511e5dc9e1938b04fb1e3
+
+COCOAPODS: 1.10.1
