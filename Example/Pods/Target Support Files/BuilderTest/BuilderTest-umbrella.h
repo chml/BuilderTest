@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "WechatAuthSDK.h"
+#import "WXApi.h"
+#import "WXApiObject.h"
 
 FOUNDATION_EXPORT double BuilderTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char BuilderTestVersionString[];

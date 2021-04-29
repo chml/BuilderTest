@@ -10,5 +10,7 @@ Pod::Spec.new do |p1|
     p1.ios.deployment_target  = '9.0'
 
     p1.vendored_frameworks = 'BuilderTest.framework'
+    p1.libraries = 'c++', 'sqlite3', 'z'
+
     p1.dependency 'AFNetworking'
 end

@@ -33,6 +33,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BuilderTest/Classes/**/*'
   s.vendored_libraries = 'BuilderTest/Classes/OpenSDK/libWeChatSDK.a'
+  s.libraries = 'z', 'c++', 'sqlite3'
   
   # s.resource_bundles = {
   #   'BuilderTest' => ['BuilderTest/Assets/*.png']
