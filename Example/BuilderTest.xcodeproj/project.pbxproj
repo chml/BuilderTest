@@ -292,7 +292,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BuilderTest_Example/Pods-BuilderTest_Example-frameworks.sh",
 				"${PODS_ROOT}/../PodBuilder/Prebuilt/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/BuilderTest/BuilderTest.framework",
+				"${PODS_ROOT}/../PodBuilder/Prebuilt/BuilderTest/BuilderTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

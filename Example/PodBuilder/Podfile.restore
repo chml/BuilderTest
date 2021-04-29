@@ -14,7 +14,7 @@ target 'BuilderTest_Example' do
 	pod 'AFNetworking/Security', '=4.0.1' # pb<AFNetworking/Security> is<false>
 	pod 'AFNetworking/Serialization', '=4.0.1' # pb<AFNetworking/Serialization> is<false>
 	pod 'AFNetworking/UIKit', '=4.0.1' # pb<AFNetworking/UIKit> is<false>
-	pod 'BuilderTest', :path => '../..' # pb<BuilderTest>
+	pod 'BuilderTest', :path => '../..' # pb<BuilderTest> is<false> sv<swiftlang-1205.0.26.9>
 end
 
 target 'BuilderTest_Tests' do

@@ -19,18 +19,18 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (from `PodBuilder/Prebuilt/AFNetworking`)
-  - BuilderTest (from `..`)
+  - BuilderTest (from `PodBuilder/Prebuilt/BuilderTest`)
 
 EXTERNAL SOURCES:
   AFNetworking:
     :path: PodBuilder/Prebuilt/AFNetworking
   BuilderTest:
-    :path: ".."
+    :path: PodBuilder/Prebuilt/BuilderTest
 
 SPEC CHECKSUMS:
   AFNetworking: 0899dcd9578438a32ee0e9f5131ee4c7b5bdd936
-  BuilderTest: bcdbda28943e71fc7739bdade5ea48f988539f91
+  BuilderTest: cbc3d22f5a45aefe38f1a3c5867e93f5b17ad898
 
-PODFILE CHECKSUM: ef21c75f1e377ae641e511e5dc9e1938b04fb1e3
+PODFILE CHECKSUM: b1cad63063b372c15fbad192849e605af397da7b
 
 COCOAPODS: 1.10.1

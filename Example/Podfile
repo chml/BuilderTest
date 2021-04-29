@@ -7,7 +7,8 @@ platform :ios, '9.0'
 
 target 'BuilderTest_Example' do
   pod 'AFNetworking', :path => 'PodBuilder/Prebuilt/AFNetworking' # pb<BuilderTest>
-  pod 'BuilderTest', :path => '..'
+  pod 'BuilderTest', :path => 'PodBuilder/Prebuilt/BuilderTest' # pb<BuilderTest>
+  pod 'AFNetworking', :path => 'PodBuilder/Prebuilt/AFNetworking' # pb<AFNetworking>
 
   target 'BuilderTest_Tests' do
     inherit! :search_paths

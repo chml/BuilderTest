@@ -1,6 +1,9 @@
 {
   "project_name": "BuilderTest",
   "spec_overrides": {
+    "AFNetworking": {
+      "SWIFT_VERSION": "5"
+    },
     "Google-Mobile-Ads-SDK": {
       "module_name": "GoogleMobileAds"
     },

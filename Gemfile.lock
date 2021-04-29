@@ -1,3 +1,17 @@
+GIT
+  remote: git@github.com:Subito-it/PodBuilder.git
+  revision: a5c016e5081e376dbff8f3f9154e072e9627b532
+  ref: a5c016e5081e376dbff8f3f9154e072e9627b532
+  specs:
+    pod-builder (3.0.1)
+      CFPropertyList
+      cocoapods (~> 1.6)
+      cocoapods-core (~> 1.6)
+      colored
+      highline
+      json
+      xcodeproj
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -55,7 +69,7 @@ GEM
     colored2 (3.1.2)
     concurrent-ruby (1.1.8)
     escape (0.0.4)
-    ethon (0.13.0)
+    ethon (0.14.0)
       ffi (>= 1.15.0)
     ffi (1.15.0)
     fourflusher (2.3.1)
@@ -71,14 +85,6 @@ GEM
     nanaimo (0.3.0)
     nap (1.1.0)
     netrc (0.11.0)
-    pod-builder (3.0.1)
-      CFPropertyList
-      cocoapods (~> 1.6)
-      cocoapods-core (~> 1.6)
-      colored
-      highline
-      json
-      xcodeproj
     public_suffix (4.0.6)
     ruby-macho (1.4.0)
     thread_safe (0.3.6)
@@ -97,7 +103,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pod-builder
+  pod-builder!
 
 BUNDLED WITH
    2.1.4

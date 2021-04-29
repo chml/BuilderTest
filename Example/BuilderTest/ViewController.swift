@@ -15,9 +15,12 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
-    let v = RedView()
+    let v = RedView() //
     v.frame = .init(x: 100, y: 100, width: 100, height: 100)
     view.addSubview(v)
+    let img = WXImageObject() // impl in BuilderTest.vendored_libraries
+    print("\(img.imageData)")
+
   }
 
   override func didReceiveMemoryWarning() {

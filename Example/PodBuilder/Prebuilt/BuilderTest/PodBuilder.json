@@ -1,0 +1,11 @@
+{
+  "entry": "pod 'BuilderTest', :path => '../..'",
+  "is_prebuilt": false,
+  "swift_version": "swiftlang-1205.0.26.9",
+  "specs": [
+    "BuilderTest"
+  ],
+  "is_static": false,
+  "original_compile_path": "/private/tmp/pod_builder",
+  "build_folder_hash": "a89b1d5fbb4273ddea754ea67eca9993"
+}

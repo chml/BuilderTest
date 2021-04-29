@@ -1,0 +1,11 @@
+framework module BuilderTest {
+  umbrella header "BuilderTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module BuilderTest.Swift {
+    header "BuilderTest-Swift.h"
+    requires objc
+}

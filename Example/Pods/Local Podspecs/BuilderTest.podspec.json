@@ -2,23 +2,18 @@
   "name": "BuilderTest",
   "version": "0.1.0",
   "summary": "A short description of BuilderTest.",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/chmlaiii@gmail.com/BuilderTest",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
-  "authors": {
-    "chmlaiii@gmail.com": "chmlaiii@gmail.com"
-  },
+  "authors": "PodBuilder",
   "source": {
-    "git": "https://github.com/chmlaiii@gmail.com/BuilderTest.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/chmlaiii@gmail.com/BuilderTest.git"
+  },
+  "license": {
+    "type": "MIT"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "BuilderTest/Classes/**/*",
+  "vendored_frameworks": "BuilderTest.framework",
   "dependencies": {
     "AFNetworking": [
 
